@@ -59,18 +59,45 @@
       </div>
 
       <!-- Stats -->
-      <div class="stats shadow bg-base-200 text-black dark:text-white lg:ml-auto">
+      <div class="stats lg:stats-vertical shadow bg-base-200 text-black dark:text-white lg:ml-auto">
         <div class="stat">
-          <div class="stat-title">Value</div>
-          <div class="stat-value">5mil</div>
+          <div class="stat-figure text-secondary">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+              class="inline-block h-8 w-8 stroke-current">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+          </div>
+          <div class="stat-title">Downloads</div>
+          <div class="stat-value">31K</div>
+          <div class="stat-desc">Jan 1st - Feb 1st</div>
         </div>
+
         <div class="stat">
-          <div class="stat-title">Projects</div>
-          <div class="stat-value">42</div>
+          <div class="stat-figure text-secondary">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+              class="inline-block h-8 w-8 stroke-current">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4">
+              </path>
+            </svg>
+          </div>
+          <div class="stat-title">New Users</div>
+          <div class="stat-value">4,200</div>
+          <div class="stat-desc">↗︎ 400 (22%)</div>
         </div>
+
         <div class="stat">
-          <div class="stat-title">Awards</div>
-          <div class="stat-value">3</div>
+          <div class="stat-figure text-secondary">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+              class="inline-block h-8 w-8 stroke-current">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"></path>
+            </svg>
+          </div>
+          <div class="stat-title">New Registers</div>
+          <div class="stat-value">1,200</div>
+          <div class="stat-desc">↘︎ 90 (14%)</div>
         </div>
       </div>
     </div>
@@ -80,7 +107,7 @@
     <div class="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
       <div class="mt-10 grid divide-x divide-y divide-gray-700 overflow-hidden  rounded-3xl
                     border border-gray-700 sm:grid-cols-2 lg:grid-cols-4  lg:divide-y-0 xl:grid-cols-4">
-        
+
         <a href="https://your-link-here.com">
           <div class="group relative bg-base-100 transition hover:z-[1]
                         hover:shadow-2xl hover:shadow-white-600/10 hover:scale-110">
@@ -97,8 +124,7 @@
           </div>
         </a>
 
-        <div
-          class="group relative bg-base-100 transition hover:z-[1]
+        <div class="group relative bg-base-100 transition hover:z-[1]
                  hover:shadow-2xl hover:shadow-white-600/10 hover:scale-110">
           <div class="relative space-y-8 py-6 p-8">
             <img src="https://www.svgrepo.com/show/120853/logo.svg" loading="lazy" width="200" height="200"
@@ -110,17 +136,21 @@
             </div>
           </div>
         </div>
-        <div
-          class="group relative bg-base-100 transition hover:z-[1] hover:shadow-2xl hover:shadow-white-600/10 hover:scale-110">
-          <div class="relative space-y-8 py-6 p-8">
-            <img src="https://www.svgrepo.com/show/120852/logo.svg" loading="lazy" width="200" height="200"
-              class="w-12 h-12 rounded-full" style="color:transparent">
-            <div class="space-y-2">
-              <h5 class="text-xl font-semibold transition group-hover:text-secondary">Timeline</h5>
-              <p class="">A quick and irty timeline of profesional career</p>
+
+        <a href="#timeline_cv">
+
+          <div
+            class="group relative bg-base-100 transition hover:z-[1] hover:shadow-2xl hover:shadow-white-600/10 hover:scale-110">
+            <div class="relative space-y-8 py-6 p-8">
+              <img src="https://www.svgrepo.com/show/120852/logo.svg" loading="lazy" width="200" height="200"
+                class="w-12 h-12 rounded-full" style="color:transparent">
+              <div class="space-y-2">
+                <h5 class="text-xl font-semibold transition group-hover:text-secondary">Timeline</h5>
+                <p class="">A quick and irty timeline of profesional career</p>
+              </div>
             </div>
           </div>
-        </div>
+        </a>
         <div
           class="group relative bg-base-100 transition hover:z-[1] hover:shadow-2xl hover:shadow-white-600/10 hover:scale-110">
           <div class="relative space-y-8 py-6 p-8">
@@ -138,12 +168,12 @@
     <!----------------- Second Page ----------------- -->
     <!-- Container -->
     <div class="container max-w-7xl mx-auto mt-20 px-6 md:px-12 xl:px-6 grid grid-cols-1 md:grid-cols-2 gap-6">
-      
+
       <!-- Left Column: Cards -->
       <div class="space-y-6">
         <!-- Companies worked with: -->
         <div class="card bg-base-100 shadow-xl p-6  bg-base-100 card-md">
-          
+
           <h2 class="card-title">Companies Worked with:</h2>
           <div class="grid grid-cols-4  gap-1">
             <!-- Microsoft -->
@@ -151,7 +181,7 @@
               data-tip="Project: Logistics Livng Lab (L3)-project - Last mile logistics">
               <div class="p-4 place-items-center text-sm grayscale contrast-200 brightness-50
                              hover:grayscale-0 hover:bg-base-300 hover:contrast-100 hover:brightness-100">
-                <img class="dark:brightness-200 dark:contrast-[300]" src="images/microsoft-logo-svgrepo-com.svg" >
+                <img class="dark:brightness-200 dark:contrast-[300]" src="images/microsoft-logo-svgrepo-com.svg">
               </div>
             </div>
             <!-- Rolls -->
@@ -192,17 +222,32 @@
             <div class="p-4 hover:bg-base-300">9</div>
 
             <!-- Virgin Media O2 -->
-            <div class="p-4 hover:bg-base-300">
-              <img src="Virgin_Media_O2.svg" height="50">
+            <div class="tooltip tooltip-bottom" data-tip="Runing Verizon Accelerator - Creative and Tech">
+              <div class="py-10 place-items-center text-sm grayscale 
+               hover:bg-base-300 hover:grayscale-0">
+                <img src="images/Virgin_Media_O2.svg">
+              </div>
             </div>
+            
             <!-- Verizon -->
-            <div class="p-4 hover:bg-base-300">
-              <img src="Verizon_2015_logo_-vector.svg" height="40">
+            <div class="tooltip tooltip-bottom" data-tip="Runing Verizon Accelerator - Creative and Tech">
+              <div class="py-10 place-items-center text-sm grayscale 
+               hover:bg-base-300 hover:grayscale-0">
+                <img src="images/Verizon_2024.svg">
+              </div>
             </div>
+
             <!-- Nottingham -->
-            <div class="p-4 hover:bg-base-300">
-              <img src="the-university-of-nottingham.svg">
+            <div class="tooltip tooltip-bottom" data-tip="Rolls-Royce UTC: Waterjet cutting ">
+              <div class="p-4 place-items-center text-sm grayscale 
+               hover:bg-base-300 hover:grayscale-0">
+                <img src="images/R.png">
+              </div>
             </div>
+
+
+
+
             <!-- MTC -->
             <div class="p-4 hover:bg-base-300">
               <img src="mtc-logo.svg">
@@ -218,12 +263,23 @@
             <!-- SAESL-->
             <div class="tooltip  tooltip-bottom"
               data-tip="Repair-Tech : Developing products for MRO repair, Localised Heat Treatement, Cold Spray, ect..">
-              <div
-                class="p-4 flex items-center justify-center text-sm grayscale hover:grayscale-0  hover:bg-base-300">
+              <div class="p-4 flex items-center justify-center text-sm grayscale hover:grayscale-0  hover:bg-base-300">
                 <img src="images/saesl-logo@1x.png">
               </div>
             </div>
-            <div class="p-4 hover:bg-base-300">20</div>
+
+            <!-- Astar -->
+            <div class="p-4 hover:bg-base-300">
+              <div class="tooltip  tooltip-bottom" data-tip="A*Star Singapore ARTC - Repair Tech ">
+                <div class="p-4 place-items-center text-sm  grayscale
+              hover:bg-base-300 hover:grayscale-0">
+                  <img src="images/00.-ASTAR-HQ-Corporate-Website.png">
+                  Singapore
+                </div>
+              </div>
+            </div>
+
+
             <div class="p-4 hover:bg-base-300">21</div>
             <div class="p-4 hover:bg-base-300">22</div>
             <div class="p-4 hover:bg-base-300">23</div>
@@ -293,9 +349,11 @@
         </div>
       </div>
 
+
+
       <!-- Right Column : Timeline -->
-      <div class="card bg-base-100 shadow-xl p-6 h-full">
-        <h2 class="card-title">Main Feature Card</h2>
+      <div class="card bg-base-100 shadow-xl p-6 h-full" id="timeline_cv">
+        <h2 class="card-title">Experience: </h2>
         <ul class="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
           <li>
             <div class="timeline-middle">
@@ -306,13 +364,16 @@
               </svg>
             </div>
             <div class="timeline-start mb-10 md:text-end">
-              <time class="font-mono italic">1984</time>
-              <div class="text-lg font-black">First Macintosh computer</div>
-              The Apple Macintosh—later rebranded as the Macintosh 128K—is the original Apple Macintosh
-              personal computer. It played a pivotal role in establishing desktop publishing as a general
-              office function. The motherboard, a 9 in (23 cm) CRT monitor, and a floppy drive were housed
-              in a beige case with integrated carrying handle; it came with a keyboard and single-button
-              mouse.
+              <time class="font-mono italic">Nov 2020 - Current</time>
+              <div class="text-lg font-black">Digital Catapult - Programme Manager</div>
+              Leading Programme manager for a £4Mil. Open Calls for Digital Supply Chain, working with Microsoft,
+              Rolls-Royce, Zoll, O2 , Vodafone (IoT), Nissan.
+              Providing funding to small companies (Startups /SMEs) to develop digital tech solutions for the sponsors.
+              <br>Impact Monitoring for AI & ML Tecnologies (Deep tech)
+              <br><br>Technical: AI , LLMs, HIT-AI , ML for Supply Chains , Interoperability of Data
+              <br>AWS, Azure, Google Cloud technologies, but mainly AWS.
+              <br>Big Data Analysis
+
             </div>
             <hr />
           </li>
@@ -326,11 +387,19 @@
               </svg>
             </div>
             <div class="timeline-end md:mb-10">
-              <time class="font-mono italic">1998</time>
-              <div class="text-lg font-black">iMac</div>
-              iMac is a family of all-in-one Mac desktop computers designed and built by Apple Inc. It has
-              been the primary part of Apple's consumer desktop offerings since its debut in August 1998,
-              and has evolved through seven distinct forms
+              <time class="font-mono italic">2015-2020</time>
+              <div class="text-lg font-black">Rolls-Royce Singapore - Engineering CA </div>
+              Managing a portfolio of projects in technology development for the repair Aerospace Market. Working
+              closely with the repair shops in Asia pacific (HAESL, SAESL)
+              <b>Leading A*star Aerospace</b> programme, working with Boeing and Airbus in developing new technologies
+              for aviation industry
+              <br>
+              Developing AI for Materials Additive Manufacturing for Aerospace. (Image processing and classification)
+              <br><b>Leading Cold Spray repair</b> programme,
+              <br>
+              Business Case development , Product Development, Working closely Airlines business
+              <br>
+              Strategy building and Technology roadmap.
             </div>
             <hr />
           </li>
@@ -344,13 +413,13 @@
               </svg>
             </div>
             <div class="timeline-start mb-10 md:text-end">
-              <time class="font-mono italic">2001</time>
-              <div class="text-lg font-black">iPod</div>
-              The iPod is a discontinued series of portable media players and multi-purpose mobile devices
-              designed and marketed by Apple Inc. The first version was released on October 23, 2001, about
-              8+1⁄2 months after the Macintosh version of iTunes was released. Apple sold an estimated 450
-              million iPod products as of 2022. Apple discontinued the iPod product line on May 10, 2022. At
-              over 20 years, the iPod brand is the oldest to be discontinued by Apple
+              <time class="font-mono italic">2012-2015</time>
+              <div class="text-lg font-black">Rolls-Royce Hucknall - Manufacturing Engineer</div>
+              Leading Innovative Inspection techniques using Image Processing cameras on CMMs for Combustion Chambers
+              for RR Trent 900 (for Airbus A380) and RRTrent XWB (84k and 97k Combustion) leading several R&D projects
+              in
+              innovative inspection. Worked with robotic cameras ( REVO Camera) with Renishaw, programming in Modus for
+              fast inspection of combustor holes
             </div>
             <hr />
           </li>
@@ -364,13 +433,10 @@
               </svg>
             </div>
             <div class="timeline-end md:mb-10">
-              <time class="font-mono italic">2007</time>
-              <div class="text-lg font-black">iPhone</div>
-              iPhone is a line of smartphones produced by Apple Inc. that use Apple's own iOS mobile
-              operating system. The first-generation iPhone was announced by then-Apple CEO Steve Jobs on
-              January 9, 2007. Since then, Apple has annually released new iPhone models and iOS updates. As
-              of November 1, 2018, more than 2.2 billion iPhones had been sold. As of 2022, the iPhone
-              accounts for 15.6% of global smartphone market share
+              <time class="font-mono italic">2009-2012</time>
+              <div class="text-lg font-black">Rolls-Royce UTC Nottingham - Innovation Manager</div>
+              Leading a 4.000.000 EU funded project on Robotic Waterjet Cutting with a consortium of 5 Industry leaders
+              and 3 Universities - cutting of aerospace grade alloys like Inconel 718, RR1000, for Rolls-Royce projects
             </div>
             <hr />
           </li>
@@ -384,11 +450,9 @@
               </svg>
             </div>
             <div class="timeline-start mb-10 md:text-end">
-              <time class="font-mono italic">2015</time>
-              <div class="text-lg font-black">Apple Watch</div>
-              The Apple Watch is a line of smartwatches produced by Apple Inc. It incorporates fitness
-              tracking, health-oriented capabilities, and wireless telecommunication, and integrates with
-              iOS and other Apple products and services
+              <time class="font-mono italic">2005-2009</time>
+              <div class="text-lg font-black">University of Nottingham</div>
+              PhD. in Data Analysis and Process Monitoring for Milling of Ni-Superalloys and detecting faults
             </div>
           </li>
         </ul>
