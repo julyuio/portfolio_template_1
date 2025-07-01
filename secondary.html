@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ARTICLE XXX YYYY</title>
+
+  
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/daisyui@latest/dist/full.css">
   <style>
@@ -29,96 +31,148 @@
   <div class="bg-gray-700 p-4 min-h-screen ">
     <!-- Top of page -->
     <div class="max-w-7xl mx-auto px-6 md:px-12 xl:px-6 flex flex-col lg:flex-row items-start lg:items-center">
+      
+      <!-- Avatar and Description -->
       <div class=" p-4 lg:w-2/3 text-gray-100">
         <div class="avatar">
           <div class="w-24 rounded-full">
-            <img src="https://img.daisyui.com/images/profile/demo/superperson@192.webp" />
+            <img src="images/im.jpg" />
           </div>
           <h2 class="my-8 px-6 text-2xl font-bold text-white md:text-4xl">Dr. Iulian Marinescu</h2>
         </div>
         <p>
-          Dr. in Engineering / Program management/ Product development with 14 years' experience in
-          technology development and New Product innovation
-        </p>
+         <b> Dr. in Engineering | Innovation management |  Product development | 15 years' experience in
+          technology development and New Product innovation (NPI) and Capability Aquizition </b>
+         
       </div>
 
     </div>
     <!-- Menu -->
     <div class="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
-      <div class="mt-10 grid divide-x divide-y divide-gray-700 overflow-hidden  rounded-3xl
+      <div class="mt-5 grid divide-x divide-y divide-gray-700 overflow-hidden  rounded-3xl
                     border border-gray-700 sm:grid-cols-2 lg:grid-cols-4  lg:divide-y-0 xl:grid-cols-4">
 
-        <a href="https://your-link-here.com">
-          <div class="group relative bg-base-100 transition hover:z-[1]
-                        hover:shadow-2xl hover:shadow-white-600/10 hover:scale-110">
-            <div class="relative space-y-8 py-6 p-8">
-
-              <div class="space-y-2">
-                <img src="https://www.svgrepo.com/show/164986/logo.svg" loading="lazy" width="200" height="200"
-                  class="w-8 h-8 rounded-full" style="color:transparent">
-                <h5 class="text-xl text-black dark:text-white font-semibold transition group-hover:text-secondary">
-                  Projects
-                </h5>
-                <p class="text-black dark:text-white">Platform to convert Domains into Content websites.</p>
-              </div>
+        <!-- Projects -->
+        <a href="#project"
+          class="group relative bg-base-100 transition hover:z-[1]
+                hover:shadow-2xl hover:shadow-white-600/10 hover:scale-110">
+          <div class=" relative py-6 p-8 hover:text-primary">
+            <div class="text-secondary hover:text-primary flex items-center gap-4">
+              <svg
+                class="w-12 h-12 stroke-current"
+                width="80px"
+                height="80px"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                stroke="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22.372,5.071l-10-4A1,1,0,0,0,11,2V6H2A1,1,0,0,0,1,7V22a1,1,0,0,0,1,1H22a1,1,0,0,0,1-1V6A1,1,0,0,0,22.372,5.071ZM3,8h8V21H3ZM13,21V3.477l8,3.2V8H15v2h6v2H15v2h6v2H15v2h6v3ZM7,12h3v2H7ZM4,12H6v2H4ZM7,9h3v2H7ZM4,9H6v2H4Zm3,6h3v2H7ZM4,15H6v2H4Zm3,3h3v2H7ZM4,18H6v2H4Z"
+                  stroke-width="0.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <span class="text-xl font-semibold text-black dark:text-gray-400 ">
+                Projects
+              </span>
             </div>
           </div>
         </a>
 
-        <div class="group relative bg-base-100 transition hover:z-[1]
-                 hover:shadow-2xl hover:shadow-white-600/10 hover:scale-110">
-          <div class="relative space-y-8 py-6 p-8">
+        <!-- CV -->
+        <a  href="#cv" 
+            class="group relative bg-base-100 transition hover:z-[1]
+                 hover:shadow-2xl hover:shadow-white-600/10 hover:scale-110"
+        >
+          <div class="relative py-6 p-8">
+                  <div class="flex items-center gap-4  text-secondary hover:text-primary">
+                    <svg
+                      class="  w-12 h-12 stroke-current"
+                      width="80px"
+                      height="80px"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      stroke="currentColor"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                    <path d="M22.707,10.658a1,1,0,0,1,0,1.414l-8.7,8.7A7.622,7.622,0,0,1,3.232,9.989L9.611,3.611a1,1,0,1,1,1.414,1.414L4.646,11.4A5.622,5.622,0,0,0,12.6,19.354l8.7-8.7A1,1,0,0,1,22.707,10.658ZM11.335,12.664a3.838,3.838,0,1,1-5.427,0A3.842,3.842,0,0,1,11.335,12.664ZM9.921,14.078a1.838,1.838,0,1,0-2.6,2.6,1.88,1.88,0,0,0,2.6,0A1.84,1.84,0,0,0,9.921,14.078ZM18.293,1.293l-7.7,7.7A1,1,0,1,0,12.011,10.4l7.7-7.7a1,1,0,0,0-1.414-1.414Zm-2,9.414a1,1,0,0,0,1.414,0l4-4a1,1,0,1,0-1.414-1.414l-4,4A1,1,0,0,0,16.293,10.707ZM4,5A1,1,0,1,0,3,6,1,1,0,0,0,4,5ZM21,19.5A1.5,1.5,0,1,0,19.5,21,1.5,1.5,0,0,0,21,19.5Z"
+                        stroke-width="0.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    />
+                    </svg> 
+                    <text class="text-xl font-semibold text-black dark:text-gray-400 ">  CV
+                    </text>
+                  </div>
 
-            <div class="space-y-2">
-              <img src="https://www.svgrepo.com/show/120853/logo.svg" loading="lazy" width="200" height="200"
-                class="w-8 h-8 rounded-full" style="color:transparent">
-              <h5 class="text-xl text-gray-800 dark:text-gray-300 font-semibold transition group-hover:text-secondary">
-                CV</h5>
-              <p class="text-gray-800 dark:text-gray-300">Welcome to download </p>
-            </div>
           </div>
-        </div>
-
-        <a href="#timeline_cv">
-
-          <div
+        </a>
+        
+        <!-- Timeline -->
+          <a href="#timeline_cv"
             class="group relative bg-base-100 transition hover:z-[1] hover:shadow-2xl hover:shadow-white-600/10 hover:scale-110">
             <div class="relative space-y-8 py-6 p-8">
-
-              <div class="space-y-2">
-                <img src="https://www.svgrepo.com/show/120852/logo.svg" loading="lazy" width="200" height="200"
-                  class="w-8 h-8 rounded-full" style="color:transparent">
-                <h5 class="text-xl font-semibold transition group-hover:text-secondary">Timeline</h5>
-                <p class="">A quick and irty timeline of profesional career</p>
-              </div>
+                  <div class="flex items-center gap-4 text-secondary hover:text-primary">
+                    <svg
+                      class="w-12 h-12"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      stroke="currentColor"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                    <path 
+                      d="M15.707,17.293a1,1,0,1,1-1.414,1.414L13,17.414V22a1,1,0,0,1-2,0V17.414L9.707,18.707a1,1,0,0,1-1.414-1.414l3-3a1,1,0,0,1,1.416,0ZM12,1a1,1,0,0,0-1,1V6.586L9.707,5.293A1,1,0,0,0,8.293,6.707l3,3a1,1,0,0,0,1.416,0l3-3a1,1,0,1,0-1.414-1.414L13,6.586V2A1,1,0,0,0,12,1ZM9.706,11.292l-3-3A1,1,0,0,0,5.293,9.707L6.586,11H2a1,1,0,0,0,0,2H6.586L5.293,14.293a1,1,0,1,0,1.414,1.414l3-3A1,1,0,0,0,9.706,11.292ZM22,11H17.414l1.293-1.293a1,1,0,0,0-1.414-1.414l-3,3a1,1,0,0,0,0,1.416l3,3a1,1,0,0,0,1.414-1.414L17.414,13H22a1,1,0,0,0,0-2Z"
+                      stroke-width="0.1"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    </svg>
+                    <text class="text-xl font-semibold text-black dark:text-gray-400 ">
+                      Timeline
+                    </text>
+                  </div>
             </div>
+        </a>
+
+        <!-- Blog -->
+        <a href="#blog"
+          class="group relative bg-base-100 transition hover:z-[1] hover:shadow-2xl hover:shadow-white-600/10 hover:scale-110">  
+          <div class="relative space-y-8 py-6 p-8">
+              <div class="flex items-center gap-4 text-secondary hover:text-primary">
+                    <svg
+                      class=" w-12 h-12 "
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      stroke="currentColor"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                    <path 
+                    d="M19.73,16.663A3.467,3.467,0,0,0,20.5,14.5a3.5,3.5,0,0,0-7,0,3.467,3.467,0,0,0,.77,2.163A6.04,6.04,0,0,0,12,18.69a6.04,6.04,0,0,0-2.27-2.027A3.467,3.467,0,0,0,10.5,14.5a3.5,3.5,0,0,0-7,0,3.467,3.467,0,0,0,.77,2.163A6,6,0,0,0,1,22a1,1,0,0,0,1,1H22a1,1,0,0,0,1-1A6,6,0,0,0,19.73,16.663ZM7,13a1.5,1.5,0,1,1-1.5,1.5A1.5,1.5,0,0,1,7,13ZM3.126,21a4,4,0,0,1,7.748,0ZM17,13a1.5,1.5,0,1,1-1.5,1.5A1.5,1.5,0,0,1,17,13Zm-3.874,8a4,4,0,0,1,7.748,0ZM6,2V8A1,1,0,0,0,7,9H9.865l1.367,1.641a1,1,0,0,0,1.536,0L14.135,9H17a1,1,0,0,0,1-1V2a1,1,0,0,0-1-1H7A1,1,0,0,0,6,2ZM8,3h8V7H13.667a1,1,0,0,0-.769.359L12,8.438l-.9-1.079A1,1,0,0,0,10.333,7H8Z"
+                    stroke-width="0.1"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    </svg>
+                    <text class="text-xl font-semibold text-black dark:text-gray-400">
+                      Blog
+                    </text>
+              </div>
           </div>
         </a>
-        <div
-          class="group relative bg-base-100 transition hover:z-[1] hover:shadow-2xl hover:shadow-white-600/10 hover:scale-110">
-          <div class="relative space-y-8 py-6 p-8">
 
-            <div class="space-y-2">
-              <img src="https://www.svgrepo.com/show/120850/logo.svg" loading="lazy" width="200" height="200"
-                class="w-8 h-8 rounded-full" style="color:transparent">
-              <h5 class="text-xl font-semibold transition group-hover:text-secondary">Blog</h5>
-              <p class="">All sort of nonsense</p>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
 
-
-
     <!----------------- Second Page ----------------- -->
     <!-- Container -->
-    <div class="container max-w-7xl mx-auto mt-20 px-6 md:px-12 xl:px-6 grid grid-cols-1 gap-6">
+    <div class="container max-w-7xl mx-auto mt-10 px-6 md:px-12 xl:px-6 grid grid-cols-1 gap-6">
 
 
       <!-- Right Column : Timeline -->
       <div class="card bg-base-100 shadow-xl p-6 h-full gap-9">
-        <h2 class="card-title">Title XXX YYYY </h2>
+        <h1 class="card-title text-4xl text-black dark:text-white">Title XXX YYYY </h1>
         <p>Content for the article .</p>
 
         <p>Content for the article .</p>
@@ -142,7 +196,7 @@
           the Privacy Preference.</p>
 
         <div class="mockup-code w-full">
-          <pre data-prefix="$"><code>npm i daisyui</code></pre>
+          <pre data-prefix="test "><code>npm i daisyui</code></pre>
           <pre data-prefix=">" class="text-warning"><code>installing...</code></pre>
           <pre data-prefix=">" class="text-success"><code>Done!</code></pre>
         </div>
@@ -175,7 +229,6 @@
           <img alt="Tailwind CSS examples"
             src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp" />
         </div>
-
 
         <p>Content for the article We and our 703 technology partners ask you to consent to the use of cookies to store
           and access personal data on your device. This can include the use of unique identifiers and information about
@@ -262,8 +315,10 @@
 
   <!-- scripts -->
 
-  <script src="particles.js"></script>
-  <script src="js/app.js"></script>
+  <script src="DEBUG_particles.js"></script>
+  <script src="DEBUG_js/app.js"></script>
+
+
 
   <script>
     particlesJS("particles-js", {

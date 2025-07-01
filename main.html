@@ -4,7 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Iulian Marinescu</title>
+  <title>Innovation & Technology Consultant </title>
+  <link rel="icon" href="images/logo-im.svg" type="image/svg+xml">
+
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/daisyui@latest/dist/full.css">
   <style>
@@ -15,106 +17,240 @@
       width: 100%;
       height: 120%;
       /* Ensures it can grow */
-
     }
+    .pointer-events-none {
+        pointer-events: none;
+        }
   </style>
-
 </head>
 
 <body class="bg-base-200">
 
   <!-- particles.js container -->
-  <div id="particles-js" class="absolute   top-0 left-0 w-full min-h-screen "></div>
+  <div id="particles-js" class="absolute z-0 top-0 left-0 w-full min-h-screen ">  </div>
 
   <!-- Page container-->
-  <div class="bg-gray-700 p-4 min-h-screen ">
+  <div class="bg-gray-700 p-4 min-h-screen  ">  
     <!-- Top of page -->
     <div class="max-w-7xl mx-auto px-6 md:px-12 xl:px-6 flex flex-col lg:flex-row items-start lg:items-center">
+      <!-- Avatar and Description -->
       <div class=" p-4 lg:w-2/3 text-gray-100">
-        <div class="avatar">
-          <div class="w-24 rounded-full">
-            <img src="https://img.daisyui.com/images/profile/demo/superperson@192.webp" />
+        <div class="inline-flex">
+          <div class="w-24 h-24 rounded-full overflow-hidden">
+            <img src="images/im.jpg" class="w-full h-full object-cover" />
           </div>
-          <h2 class="my-8 px-6 text-2xl font-bold text-white md:text-4xl">Dr. Iulian Marinescu</h2>
+          <div class="my-8 px-6 text-2xl  text-white ">
+            <span class="font-semibold ">
+              Iulian Marinescu -
+            </span>
+            <span class="text-lg"> Innovation & Technology Consultant  </span>
+                      </div> 
         </div>
-        <p>
-          Dr. in Engineering / Program management/ Product development with 14 years' experience in
-          technology development and New Product innovation:
-          <br>Manufacturing:
+        <p class="relative">
+          <span class="hover:text-secondary hover:font-bold" > Dr. in Engineering </span>| 
+           <span class="hover:text-secondary hover:font-bold" > Innovation management </span>|
+           <span class="hover:text-secondary hover:font-bold" > Product development </span> |
+          <span class="hover:text-secondary hover:font-bold" > 15 years' experience</span>| 
+          <span class="hover:text-secondary hover:font-bold" > New Product innovation <b>(NPI)</b> </span>|
+          <span class="hover:text-secondary hover:font-bold" > Capability Aquizition <b>(CA)</b></span>  
+          <div class="my-6"></div>
+          <ul >Innovation Accelerators delivered: 
+            <li>- 8 x Digital Supply Chain Accelerators - open calls</li>
+            <li>- Verizon 5G accelerator</li>
+            <li>- SONIC 5G Accelerator - Open RAN </li>
+          </ul>
+          Manufacturing:
         <ul>
           <li>- Additive manufacturing for metals: Select Laser Melting (SLM), Cold Spray (CS), Direct Laser
             Deposition (DLD) or Laser Powder Deposition (LPD) </li>
-          <li>- 3D Scanning, GOM, Structured light inspection</li>
+          <li>- Inspection: 3D Scanning, GOM, Structured light inspection</li>
           <li>- Global Lead for Cold Spray additive techniques, setting strategy and trends for Rolls-Royce </li>
           <li>- Localized Heat Treatment (LHT): heat treatment of materials for desired proprieties, locally</li>
           <li>- Materials: Inconel 718, TI64, TI6246, AL 2024 and other mainly Aerospace alloys(superalloys) </li>
         </ul>
         Digital Programme Management:
         <ul>
-          <li>- Digital Supply Chains Open calls: Working with Big Tech (Microsoft, Apple, Vodafone,
-            Verizon) and SMEs to develop technologies (AI, IoT, Big Data, Robotics, Web Crawlers, LLMs,
+          <li>- Digital Supply Chains Open calls: Working with Big Tech (Microsoft, Vodafone,
+            Nissan) and Start-ups to develop technologies (AI, IoT, Big Data, Robotics, Web Crawlers, LLMs,
             ML) for Supply Chains digitization and transformations.</li>
         </ul>
         </p>
       </div>
 
       <!-- Stats -->
-      <div class="stats lg:stats-vertical shadow bg-base-200 text-black dark:text-white lg:ml-auto">
+      <div class="mx-auto stats stats-vertical shadow">
+        <!----- Contact ----->
+        <div class="stat">
+          <div class="stat-title text-black dark:text-white">Contact me </div>
+          <div class="top-2 relative grid  overflow-hidden  grid-cols-3 ">
+              <!-- Email -->
+              <a class="hover:text-primary" onclick="at.showModal()">
+                  <svg width="40" height="40" viewBox="0 0 24 24" 
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <path d="M17.4009 19.2C15.8965 20.3302 14.0265 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12V13.5C21 14.8807 19.8807 16 18.5 16C17.1193 16 16 14.8807 16 13.5V8M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12Z"
+                  stroke="currentColor"
+                  stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+              </a>
+                <dialog id="at" class="modal">
+                  <div class="modal-box">
+                    <h3 class="text-lg font-bold">julyuio@outlook.com</h3>
+                    <p class="py-4">Mail me any details on Julyuio@outlook.com</p>
+                  </div>
+                  <form method="dialog" class="modal-backdrop">
+                    <button>close</button>
+                  </form>
+                </dialog>
+            
+              <!-- Phone -->
+              <a class="hover:text-primary" onclick="phone.showModal()">
+                <svg width="40px" height="40px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.05 6C15.0268 6.19057 15.9244 6.66826 16.6281 7.37194C17.3318 8.07561 17.8095 8.97326 18 9.95M14.05 2C16.0793 2.22544 17.9716 3.13417 19.4163 4.57701C20.8609 6.01984 21.7721 7.91101 22 9.94M18.5 21C9.93959 21 3 14.0604 3 5.5C3 5.11378 3.01413 4.73086 3.04189 4.35173C3.07375 3.91662 3.08968 3.69907 3.2037 3.50103C3.29814 3.33701 3.4655 3.18146 3.63598 3.09925C3.84181 3 4.08188 3 4.56201 3H7.37932C7.78308 3 7.98496 3 8.15802 3.06645C8.31089 3.12515 8.44701 3.22049 8.55442 3.3441C8.67601 3.48403 8.745 3.67376 8.88299 4.05321L10.0491 7.26005C10.2096 7.70153 10.2899 7.92227 10.2763 8.1317C10.2643 8.31637 10.2012 8.49408 10.0942 8.64506C9.97286 8.81628 9.77145 8.93713 9.36863 9.17882L8 10C9.2019 12.6489 11.3501 14.7999 14 16L14.8212 14.6314C15.0629 14.2285 15.1837 14.0271 15.3549 13.9058C15.5059 13.7988 15.6836 13.7357 15.8683 13.7237C16.0777 13.7101 16.2985 13.7904 16.74 13.9509L19.9468 15.117C20.3262 15.255 20.516 15.324 20.6559 15.4456C20.7795 15.553 20.8749 15.6891 20.9335 15.842C21 16.015 21 16.2169 21 16.6207V19.438C21 19.9181 21 20.1582 20.9007 20.364C20.8185 20.5345 20.663 20.7019 20.499 20.7963C20.3009 20.9103 20.0834 20.9262 19.6483 20.9581C19.2691 20.9859 18.8862 21 18.5 21Z" 
+                stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a>
+                <dialog id="phone" class="modal">
+                  <div class="modal-box">
+                    <h3 class="text-lg font-bold">
+                      UK: +447535739690
+                      <br>RO: +40 XXXXXXXXX
+                      <br>SG: +65 XXXXXXXXX
+                    </h3>
+                    <p class="py-4">I prefer if you would <b>SMS/ Text</b> me instead of direct call. Or even better send me a <b>Whatsapp</b>. I respond quickly </p>
+                  </div>
+                  <form method="dialog" class="modal-backdrop">
+                    <button>close</button>
+                  </form>
+                </dialog>
+
+              <!-- Phone -->
+              <a class="hover:text-primary" href="https://wa.me/+447535739690">
+                  <svg fill="currentColor" height="40" width="40" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+                    viewBox="0 0 308 308" xml:space="preserve"
+                    stroke="currentColor">
+                  <g id="XMLID_468_">
+                    <path id="XMLID_469_" d="M227.904,176.981c-0.6-0.288-23.054-11.345-27.044-12.781c-1.629-0.585-3.374-1.156-5.23-1.156
+                      c-3.032,0-5.579,1.511-7.563,4.479c-2.243,3.334-9.033,11.271-11.131,13.642c-0.274,0.313-0.648,0.687-0.872,0.687
+                      c-0.201,0-3.676-1.431-4.728-1.888c-24.087-10.463-42.37-35.624-44.877-39.867c-0.358-0.61-0.373-0.887-0.376-0.887
+                      c0.088-0.323,0.898-1.135,1.316-1.554c1.223-1.21,2.548-2.805,3.83-4.348c0.607-0.731,1.215-1.463,1.812-2.153
+                      c1.86-2.164,2.688-3.844,3.648-5.79l0.503-1.011c2.344-4.657,0.342-8.587-0.305-9.856c-0.531-1.062-10.012-23.944-11.02-26.348
+                      c-2.424-5.801-5.627-8.502-10.078-8.502c-0.413,0,0,0-1.732,0.073c-2.109,0.089-13.594,1.601-18.672,4.802
+                      c-5.385,3.395-14.495,14.217-14.495,33.249c0,17.129,10.87,33.302,15.537,39.453c0.116,0.155,0.329,0.47,0.638,0.922
+                      c17.873,26.102,40.154,45.446,62.741,54.469c21.745,8.686,32.042,9.69,37.896,9.69c0.001,0,0.001,0,0.001,0
+                      c2.46,0,4.429-0.193,6.166-0.364l1.102-0.105c7.512-0.666,24.02-9.22,27.775-19.655c2.958-8.219,3.738-17.199,1.77-20.458
+                      C233.168,179.508,230.845,178.393,227.904,176.981z"/>
+                    <path id="XMLID_470_" d="M156.734,0C73.318,0,5.454,67.354,5.454,150.143c0,26.777,7.166,52.988,20.741,75.928L0.212,302.716
+                      c-0.484,1.429-0.124,3.009,0.933,4.085C1.908,307.58,2.943,308,4,308c0.405,0,0.813-0.061,1.211-0.188l79.92-25.396
+                      c21.87,11.685,46.588,17.853,71.604,17.853C240.143,300.27,308,232.923,308,150.143C308,67.354,240.143,0,156.734,0z
+                      M156.734,268.994c-23.539,0-46.338-6.797-65.936-19.657c-0.659-0.433-1.424-0.655-2.194-0.655c-0.407,0-0.815,0.062-1.212,0.188
+                      l-40.035,12.726l12.924-38.129c0.418-1.234,0.209-2.595-0.561-3.647c-14.924-20.392-22.813-44.485-22.813-69.677
+                      c0-65.543,53.754-118.867,119.826-118.867c66.064,0,119.812,53.324,119.812,118.867
+                      C276.546,215.678,222.799,268.994,156.734,268.994z"/>
+                  </g>
+                  </svg>
+              </a>
+          </div>
+        </div>
+
+        <!-- Patents -->
         <div class="stat">
           <div class="stat-figure text-secondary">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-              class="inline-block h-8 w-8 stroke-current">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              class="inline-block h-8 w-8 stroke-current"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+              ></path>
             </svg>
           </div>
-          <div class="stat-title">Downloads</div>
-          <div class="stat-value">31K</div>
+          <div class="stat-title">Patents</div>
+          <div class="stat-value">17</div>
           <div class="stat-desc">Jan 1st - Feb 1st</div>
         </div>
 
         <div class="stat">
           <div class="stat-figure text-secondary">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-              class="inline-block h-8 w-8 stroke-current">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4">
-              </path>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              class="inline-block h-8 w-8 stroke-current"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"
+              ></path>
             </svg>
           </div>
-          <div class="stat-title">New Users</div>
-          <div class="stat-value">4,200</div>
-          <div class="stat-desc">↗︎ 400 (22%)</div>
+          <div class="stat-title">Start-ups helped</div>
+          <div class="stat-value">42</div>
+          <div class="stat-desc">↗︎ 6 (last quarter)</div>
         </div>
 
         <div class="stat">
           <div class="stat-figure text-secondary">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-              class="inline-block h-8 w-8 stroke-current">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"></path>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              class="inline-block h-8 w-8 stroke-current"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"
+              ></path>
             </svg>
           </div>
-          <div class="stat-title">New Registers</div>
-          <div class="stat-value">1,200</div>
-          <div class="stat-desc">↘︎ 90 (14%)</div>
+          <div class="stat-title">Innovation <br> Accelerators</div>
+          <div class="stat-value">10</div>
+          <div class="stat-desc">↗︎ 1 (last qrt)</div>
         </div>
       </div>
     </div>
 
 
-    <!-- Menu -->
+<!-------- Menu ------->
     <div class="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
       <div class="mt-10 grid divide-x divide-y divide-gray-700 overflow-hidden  rounded-3xl
                     border border-gray-700 sm:grid-cols-2 lg:grid-cols-4  lg:divide-y-0 xl:grid-cols-4">
 
-        <a href="https://your-link-here.com">
-          <div class="group relative bg-base-100 transition hover:z-[1]
-                        hover:shadow-2xl hover:shadow-white-600/10 hover:scale-110">
+        <!-- Projects -->
+        <a href="#project"
+          class="group relative bg-base-100 transition hover:z-[1]
+                 hover:shadow-2xl hover:shadow-white-600/10 hover:scale-110">
+          <div class="">
             <div class="relative space-y-8 py-6 p-8">
-              <img src="https://www.svgrepo.com/show/164986/logo.svg" loading="lazy" width="200" height="200"
-                class="w-12 h-12 rounded-full" style="color:transparent">
-              <div class="space-y-2">
+                  <div class="text-secondary hover:text-primary">
+                    <svg
+                      class="w-12 h-12 stroke-current"
+                      width="80px"
+                      height="80px"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      stroke="currentColor"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M22.372,5.071l-10-4A1,1,0,0,0,11,2V6H2A1,1,0,0,0,1,7V22a1,1,0,0,0,1,1H22a1,1,0,0,0,1-1V6A1,1,0,0,0,22.372,5.071ZM3,8h8V21H3ZM13,21V3.477l8,3.2V8H15v2h6v2H15v2h6v2H15v2h6v3ZM7,12h3v2H7ZM4,12H6v2H4ZM7,9h3v2H7ZM4,9H6v2H4Zm3,6h3v2H7ZM4,15H6v2H4Zm3,3h3v2H7ZM4,18H6v2H4Z"
+                        stroke-width="0.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                <div class="space-y-2">
                 <h5 class="text-xl text-black dark:text-white font-semibold transition group-hover:text-secondary">
                   Projects
                 </h5>
@@ -124,44 +260,92 @@
           </div>
         </a>
 
-        <div class="group relative bg-base-100 transition hover:z-[1]
-                 hover:shadow-2xl hover:shadow-white-600/10 hover:scale-110">
+        <!-- CV -->
+        <a  href="#cv" 
+            class="group relative bg-base-100 transition hover:z-[1]
+                 hover:shadow-2xl hover:shadow-white-600/10 hover:scale-110"
+             >
           <div class="relative space-y-8 py-6 p-8">
-            <img src="https://www.svgrepo.com/show/120853/logo.svg" loading="lazy" width="200" height="200"
-              class="w-12 h-12 rounded-full" style="color:transparent">
+                  <div class="text-secondary hover:text-primary">
+                    <svg
+                      class="w-12 h-12 stroke-current"
+                      width="80px"
+                      height="80px"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      stroke="currentColor"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                    <path d="M22.707,10.658a1,1,0,0,1,0,1.414l-8.7,8.7A7.622,7.622,0,0,1,3.232,9.989L9.611,3.611a1,1,0,1,1,1.414,1.414L4.646,11.4A5.622,5.622,0,0,0,12.6,19.354l8.7-8.7A1,1,0,0,1,22.707,10.658ZM11.335,12.664a3.838,3.838,0,1,1-5.427,0A3.842,3.842,0,0,1,11.335,12.664ZM9.921,14.078a1.838,1.838,0,1,0-2.6,2.6,1.88,1.88,0,0,0,2.6,0A1.84,1.84,0,0,0,9.921,14.078ZM18.293,1.293l-7.7,7.7A1,1,0,1,0,12.011,10.4l7.7-7.7a1,1,0,0,0-1.414-1.414Zm-2,9.414a1,1,0,0,0,1.414,0l4-4a1,1,0,1,0-1.414-1.414l-4,4A1,1,0,0,0,16.293,10.707ZM4,5A1,1,0,1,0,3,6,1,1,0,0,0,4,5ZM21,19.5A1.5,1.5,0,1,0,19.5,21,1.5,1.5,0,0,0,21,19.5Z"
+                        stroke-width="0.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    />
+                    </svg>
+                  </div>
             <div class="space-y-2">
               <h5 class="text-xl text-gray-800 dark:text-gray-300 font-semibold transition group-hover:text-secondary">
                 CV</h5>
               <p class="text-gray-800 dark:text-gray-300">Welcome to download </p>
             </div>
           </div>
-        </div>
-
-        <a href="#timeline_cv">
-
-          <div
+        </a>
+        
+        <!-- Timeline -->
+          <a href="#timeline_cv"
             class="group relative bg-base-100 transition hover:z-[1] hover:shadow-2xl hover:shadow-white-600/10 hover:scale-110">
             <div class="relative space-y-8 py-6 p-8">
-              <img src="https://www.svgrepo.com/show/120852/logo.svg" loading="lazy" width="200" height="200"
-                class="w-12 h-12 rounded-full" style="color:transparent">
+
+                  <div class="text-secondary hover:text-primary">
+                    <svg
+                      class="w-12 h-12 "
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      stroke="currentColor"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                    <path 
+                      d="M15.707,17.293a1,1,0,1,1-1.414,1.414L13,17.414V22a1,1,0,0,1-2,0V17.414L9.707,18.707a1,1,0,0,1-1.414-1.414l3-3a1,1,0,0,1,1.416,0ZM12,1a1,1,0,0,0-1,1V6.586L9.707,5.293A1,1,0,0,0,8.293,6.707l3,3a1,1,0,0,0,1.416,0l3-3a1,1,0,1,0-1.414-1.414L13,6.586V2A1,1,0,0,0,12,1ZM9.706,11.292l-3-3A1,1,0,0,0,5.293,9.707L6.586,11H2a1,1,0,0,0,0,2H6.586L5.293,14.293a1,1,0,1,0,1.414,1.414l3-3A1,1,0,0,0,9.706,11.292ZM22,11H17.414l1.293-1.293a1,1,0,0,0-1.414-1.414l-3,3a1,1,0,0,0,0,1.416l3,3a1,1,0,0,0,1.414-1.414L17.414,13H22a1,1,0,0,0,0-2Z"
+                      stroke-width="0.1"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    </svg>
+                  </div>
               <div class="space-y-2">
                 <h5 class="text-xl font-semibold transition group-hover:text-secondary">Timeline</h5>
                 <p class="">A quick and irty timeline of profesional career</p>
               </div>
             </div>
-          </div>
         </a>
-        <div
-          class="group relative bg-base-100 transition hover:z-[1] hover:shadow-2xl hover:shadow-white-600/10 hover:scale-110">
+
+        <!-- Blog -->
+        <a href="#blog"
+          class="group relative bg-base-100 transition hover:z-[1] hover:shadow-2xl hover:shadow-white-600/10 hover:scale-110">  
           <div class="relative space-y-8 py-6 p-8">
-            <img src="https://www.svgrepo.com/show/120850/logo.svg" loading="lazy" width="200" height="200"
-              class="w-12 h-12 rounded-full" style="color:transparent">
+              <div class="text-secondary hover:text-primary">
+                    <svg
+                      class="w-12 h-12 "
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      stroke="currentColor"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                    <path 
+                    d="M19.73,16.663A3.467,3.467,0,0,0,20.5,14.5a3.5,3.5,0,0,0-7,0,3.467,3.467,0,0,0,.77,2.163A6.04,6.04,0,0,0,12,18.69a6.04,6.04,0,0,0-2.27-2.027A3.467,3.467,0,0,0,10.5,14.5a3.5,3.5,0,0,0-7,0,3.467,3.467,0,0,0,.77,2.163A6,6,0,0,0,1,22a1,1,0,0,0,1,1H22a1,1,0,0,0,1-1A6,6,0,0,0,19.73,16.663ZM7,13a1.5,1.5,0,1,1-1.5,1.5A1.5,1.5,0,0,1,7,13ZM3.126,21a4,4,0,0,1,7.748,0ZM17,13a1.5,1.5,0,1,1-1.5,1.5A1.5,1.5,0,0,1,17,13Zm-3.874,8a4,4,0,0,1,7.748,0ZM6,2V8A1,1,0,0,0,7,9H9.865l1.367,1.641a1,1,0,0,0,1.536,0L14.135,9H17a1,1,0,0,0,1-1V2a1,1,0,0,0-1-1H7A1,1,0,0,0,6,2ZM8,3h8V7H13.667a1,1,0,0,0-.769.359L12,8.438l-.9-1.079A1,1,0,0,0,10.333,7H8Z"
+                    stroke-width="0.1"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    </svg>
+              </div>
             <div class="space-y-2">
               <h5 class="text-xl font-semibold transition group-hover:text-secondary">Blog</h5>
               <p class="">All sort of nonsense</p>
             </div>
           </div>
-        </div>
+        </a>
+
       </div>
     </div>
 
@@ -171,17 +355,18 @@
 
       <!-- Left Column: Cards -->
       <div class="space-y-6">
+        
         <!-- Companies worked with: -->
         <div class="card bg-base-100 shadow-xl p-6  bg-base-100 card-md">
-
           <h2 class="card-title">Companies Worked with:</h2>
           <div class="grid grid-cols-4  gap-1">
             <!-- Microsoft -->
             <div class="tooltip tooltip-bottom"
               data-tip="Project: Logistics Livng Lab (L3)-project - Last mile logistics">
+              <meta name="Microsoft" content="Microsoft">
               <div class="p-4 place-items-center text-sm grayscale contrast-200 brightness-50
-                             hover:grayscale-0 hover:bg-base-300 hover:contrast-100 hover:brightness-100">
-                <img class="dark:brightness-200 dark:contrast-[300]" src="images/microsoft-logo-svgrepo-com.svg">
+                             hover:grayscale-0 hover:bg-base-300 hover:contrast-100 hover:brightness-100 dark:invert dark:hover:invert-0">
+                <img class="" src="images/microsoft-logo-svgrepo-com.svg"  width="80px">
               </div>
             </div>
             <!-- Rolls -->
@@ -189,7 +374,7 @@
               data-tip="Employee: 12 Years - Repair Technology , Combustion and Casings, CA Innovation and Technology">
               <div class="p-4 place-items-center text-sm  grayscale
              hover:bg-base-300 hover:grayscale-0">
-                <img src="images/Rolls_royce_holdings_logo_color.svg" height="70px" width="40px">
+                <img src="images/Rolls_royce_holdings_logo_color.svg"  width="40px">
                 Aero
               </div>
             </div>
@@ -205,85 +390,100 @@
             <!-- Leonardo  -->
             <div class="tooltip  tooltip-bottom" data-tip="Project: Data analysis tool in python">
               <div class="py-10 place-items-center text-sm  grayscale
-             hover:bg-base-300 hover:grayscale-0">
+             hover:bg-base-300 hover:grayscale-0 dark:invert dark:hover:invert-0">
                 <img class="dark:brightness-200 dark:contrast-[300]" src="images/LDO_Logo_Leonardo.svg">
                 Electronics
               </div>
             </div>
-            <!-- BAE Systems-->
-            <div
-              class="grayscale hover:grayscale-0 p-4 place-items-center tooltip text-sm tooltip-bottom hover:bg-base-300"
-              data-tip="Materials developement project - Ni Superalloys part of SAMULET programme">
-              <img class="" src="logo_baesystems_borderless.svg">
+
+            <!-- BAE Systems -->
+            <div class="tooltip tooltip-bottom" data-tip="Early days - Materials developement project - Ni Superalloys part of SAMULET programme">
+              <div class="py-10 place-items-center text-sm grayscale 
+               hover:bg-base-300 hover:grayscale-0">
+                <img src="images/logo_baesystems_borderless.svg"  width="100px">
+              </div>
             </div>
 
-            <div class="p-4 hover:bg-base-300">7</div>
-            <div class="p-4 hover:bg-base-300">8</div>
-            <div class="p-4 hover:bg-base-300">9</div>
+
+            <!-- Kavida -->
+            <div class="tooltip tooltip-bottom" data-tip="Part of Digital Supply Chains Hub Accelerator- encouranged and supplied funding to SME to develop new technology">
+              <div class="py-10 place-items-center text-sm grayscale 
+               hover:bg-base-300 hover:grayscale-0">
+                <img  class="dark:invert" src="images/kavida-logo.png"  width="80px">
+              </div>
+            </div>
+            <!-- Exiger -->
+            <div class="tooltip tooltip-bottom" data-tip="Part of Digital Supply Chains Hub Accelerator- encouranged and supplied funding to SME to develop new technology">
+              <div class="py-10 place-items-center text-sm grayscale 
+               hover:bg-base-300 hover:grayscale-0 ">
+                <img class="invert dark:invert-0" src="images/Exiger-Supply-Chain-Management.svg"  width="80px">
+              </div>
+            </div>
+
 
             <!-- Virgin Media O2 -->
             <div class="tooltip tooltip-bottom" data-tip="Runing Verizon Accelerator - Creative and Tech">
               <div class="py-10 place-items-center text-sm grayscale 
-               hover:bg-base-300 hover:grayscale-0">
-                <img src="images/Virgin_Media_O2.svg">
+               hover:bg-base-300 hover:grayscale-0 dark:invert dark:hover:invert-0">
+                <img src="images/Virgin_Media_O2.svg" width="80px">
               </div>
             </div>
             
             <!-- Verizon -->
-            <div class="tooltip tooltip-bottom" data-tip="Runing Verizon Accelerator - Creative and Tech">
+            <div class="tooltip tooltip-bottom" data-tip="Delivery, Runing Verizon Accelerator - Creative and Tech linking with Small Creative businesess">
               <div class="py-10 place-items-center text-sm grayscale 
-               hover:bg-base-300 hover:grayscale-0">
-                <img src="images/Verizon_2024.svg">
+               hover:bg-base-300 hover:grayscale-0 dark:invert dark:hover:invert-0">
+                <img class="" src="images/Verizon_2024.svg"  width="80px">
               </div>
             </div>
 
             <!-- Nottingham -->
-            <div class="tooltip tooltip-bottom" data-tip="Rolls-Royce UTC: Waterjet cutting ">
-              <div class="p-4 place-items-center text-sm grayscale 
-               hover:bg-base-300 hover:grayscale-0">
-                <img src="images/R.png">
+            <div class="tooltip tooltip-bottom" data-tip="Rolls-Royce UTC: technical lead waterjet cutting process monitoring and data analysis">
+              <div class="py-10 place-items-center text-sm grayscale 
+               hover:bg-base-300 hover:grayscale-0 dark:invert dark:hover:invert-0 dark:hover:brightness-200" >
+                <img src="images/R.png"  width="90px">
               </div>
             </div>
-
-
-
-
             <!-- MTC -->
-            <div class="p-4 hover:bg-base-300">
-              <img src="mtc-logo.svg">
+            <div class="tooltip tooltip-bottom" data-tip="Manufacturing Technology Centre: Technology consultant">
+              <div class="py-10 place-items-center text-sm grayscale 
+               hover:bg-base-300 hover:grayscale-0 dark:invert dark:hover:invert-0  ">
+                <img class="dark:invert dark:hover:invert-0" src="images/mtc-logo.svg"  width="80px">
+              </div>
             </div>
             <!-- HVMC -->
-            <div class="p-4 hover:bg-base-300">
-              <img src="HVMC.svg">
+            <div class="tooltip tooltip-bottom" data-tip="HVMC - High Value Manufacturing Catapult: Digital Supply chain">
+              <div class="py-10 place-items-center text-sm grayscale 
+               hover:bg-base-300 hover:grayscale-0">
+                <img  class="dark:invert  " src="images/HVMC.svg"  width="80px">
+              </div>
             </div>
+
             <!-- UKRI -->
-            <div class="p-4 hover:bg-base-300">
-              <img src="UKRI.svg" height="60px" width="120px">
-            </div>
-            <!-- SAESL-->
-            <div class="tooltip  tooltip-bottom"
-              data-tip="Repair-Tech : Developing products for MRO repair, Localised Heat Treatement, Cold Spray, ect..">
-              <div class="p-4 flex items-center justify-center text-sm grayscale hover:grayscale-0  hover:bg-base-300">
-                <img src="images/saesl-logo@1x.png">
+            <div class="tooltip tooltip-bottom" data-tip=" UKRI- Innovate UK, Digital Supply chain - Amoust many other projects">
+              <div class="py-10 place-items-center text-sm grayscale 
+               hover:bg-base-300 hover:grayscale-0 dark:hover:invert-0">
+                <img class="dark:invert" src="images/UKRI.svg"  width="100px">
               </div>
             </div>
 
-            <!-- Astar -->
-            <div class="p-4 hover:bg-base-300">
-              <div class="tooltip  tooltip-bottom" data-tip="A*Star Singapore ARTC - Repair Tech ">
-                <div class="p-4 place-items-center text-sm  grayscale
-              hover:bg-base-300 hover:grayscale-0">
-                  <img src="images/00.-ASTAR-HQ-Corporate-Website.png">
-                  Singapore
-                </div>
+            <!-- SAESL -->
+            <div class="tooltip tooltip-bottom" data-tip="epair-Tech : Developing products for MRO repair, Localised Heat Treatement, Cold Spray, ect..">
+              <div class="py-10 place-items-center text-sm grayscale 
+               hover:bg-base-300 hover:grayscale-0">
+                <img src="images/saesl-logo@1x.png"  width="90px">
+              </div>
+            </div>
+
+            <!-- AStar -->
+            <div class="tooltip tooltip-bottom" data-tip="Repair-Tech : Developing products for MRO repair, Localised Heat Treatement, Cold Spray, ect..">
+              <div class="py-10 place-items-center text-sm grayscale 
+               hover:bg-base-300 hover:grayscale-0 dark:invert dark:hover:invert-0">
+                <img src="images/00.-ASTAR-HQ-Corporate-Website.png"  width="90px"> A*Star Singapore
               </div>
             </div>
 
 
-            <div class="p-4 hover:bg-base-300">21</div>
-            <div class="p-4 hover:bg-base-300">22</div>
-            <div class="p-4 hover:bg-base-300">23</div>
-            <div class="p-4 hover:bg-base-300">24</div>
           </div>
         </div>
 
@@ -341,6 +541,37 @@
           </div>
         </div>
 
+        <!-- Full leght simple card 1 -->
+        <div class="card card-md bg-base-100 shadow-xl p-6 indicator hover:bg-base-300 w-full" id="project">
+          <span class="indicator-item indicator-start badge badge-secondary">Project </span>
+          <h2 class="card-title">Card 1</h2>
+          <p>Content for the first card.</p>
+          <div class="justify-end card-actions">
+            <button class="btn btn-primary">Buy Now</button>
+          </div>
+        </div>
+
+        <!-- Full leght simple card 1 -->
+        <div class="card card-md bg-base-100 shadow-xl p-6 indicator hover:bg-base-300 w-full" id="project">
+          <span class="indicator-item indicator-start badge badge-secondary">Project </span>
+          <h2 class="card-title">Card 2</h2>
+          <p>Content for the first card.</p>
+          <div class="justify-end card-actions">
+            <button class="btn btn-primary">Buy Now</button>
+          </div>
+        </div>
+
+        <!-- Full leght simple card 1 -->
+        <div class="card card-md bg-base-100 shadow-xl p-6 indicator hover:bg-base-300 w-full" id="project">
+          <span class="indicator-item indicator-start badge badge-secondary">Project </span>
+          <h2 class="card-title">Card 3</h2>
+          <p>Content for the first card.</p>
+          <div class="justify-end card-actions">
+            <button class="btn btn-primary">Buy Now</button>
+          </div>
+        </div>
+
+        
         <!-- Full leght simple card 2  -->
         <div class="card bg-base-100 shadow-xl p-6 hover:bg-[url('')] hover:bg-cover hover:bg-center ">
           <h2 class="card-title">Card 5</h2>
@@ -349,7 +580,9 @@
         </div>
       </div>
 
-      <!-- Right Column : Timeline -->
+
+
+<!-------- Timeline ---------->
       <div class="card bg-base-100 shadow-xl p-6 h-full" id="timeline_cv">
         <h2 class="card-title">Experience: </h2>
         <ul class="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
@@ -457,16 +690,22 @@
   </div>
 
 
-
+<!-- Footer -->
   <footer class="footer sm:footer-horizontal bg-neutral text-neutral-content items-center p-4">
     <aside class="grid-flow-col items-center">
-      <svg width="36" height="36" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
-        clip-rule="evenodd" class="fill-current">
-        <path
-          d="M22.672 15.226l-2.432.811.841 2.515c.33 1.019-.209 2.127-1.23 2.456-1.15.325-2.148-.321-2.463-1.226l-.84-2.518-5.013 1.677.84 2.517c.391 1.203-.434 2.542-1.831 2.542-.88 0-1.601-.564-1.86-1.314l-.842-2.516-2.431.809c-1.135.328-2.145-.317-2.463-1.229-.329-1.018.211-2.127 1.231-2.456l2.432-.809-1.621-4.823-2.432.808c-1.355.384-2.558-.59-2.558-1.839 0-.817.509-1.582 1.327-1.846l2.433-.809-.842-2.515c-.33-1.02.211-2.129 1.232-2.458 1.02-.329 2.13.209 2.461 1.229l.842 2.515 5.011-1.677-.839-2.517c-.403-1.238.484-2.553 1.843-2.553.819 0 1.585.509 1.85 1.326l.841 2.517 2.431-.81c1.02-.33 2.131.211 2.461 1.229.332 1.018-.21 2.126-1.23 2.456l-2.433.809 1.622 4.823 2.433-.809c1.242-.401 2.557.484 2.557 1.838 0 .819-.51 1.583-1.328 1.847m-8.992-6.428l-5.01 1.675 1.619 4.828 5.011-1.674-1.62-4.829z">
-        </path>
+      <svg fill="currentColor"
+           width="40px" height="40px"
+           viewBox="0 0 24 24"
+           xmlns="http://www.w3.org/2000/svg"
+           transform="rotate(45)">
+          <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+          <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#000000" stroke-width="0.096"/>
+          <g id="SVGRepo_iconCarrier">
+          <path d="M7,12A5,5,0,1,0,2,7,5.006,5.006,0,0,0,7,12ZM7,4A3,3,0,1,1,4,7,3,3,0,0,1,7,4Zm5,10a4,4,0,1,0,4,4A4,4,0,0,0,12,14Zm0,6a2,2,0,1,1,2-2A2,2,0,0,1,12,20ZM22,9a3,3,0,1,0-3,3A3,3,0,0,0,22,9Zm-3,1a1,1,0,1,1,1-1A1,1,0,0,1,19,10ZM16,5a1,1,0,1,1-1-1A1,1,0,0,1,16,5Zm3,10a1,1,0,1,1-1,1A1,1,0,0,1,19,15ZM6,13a1,1,0,1,1-1,1A1,1,0,0,1,6,13Z"/>
+          </g>
       </svg>
-      <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
+
+      <p>Copyright © Iulian Marinescu | Contact me on: julyuio@outlook.com | Whatsapp: +447535739690</p>
     </aside>
     <nav class="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
       <a>
@@ -493,10 +732,21 @@
     </nav>
   </footer>
 
-  <!-- scripts -->
+<!-- scripts -->
 
-  <script src="particles.js"></script>
+  <script src="js/particles.js"></script>
+  <!--
   <script src="js/app.js"></script>
+   -->
+
+
+    <!-- For DEV 
+  <script>
+    setInterval(() => {
+      location.reload();
+    }, 4000); 
+  </script>-->
+
 
   <script>
     particlesJS("particles-js", {
